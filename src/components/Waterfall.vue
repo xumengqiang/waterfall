@@ -109,7 +109,7 @@ export default {
       const IS_BOTTOM = document.documentElement.scrollTop || document.body.scrollTop + document.documentElement.clientHeight >= document.documentElement.scrollHeight - 100
       if (IS_BOTTOM) {
         console.log('到底了')
-        this.imgArr = imgArr.slice(Math.round(Math.random() * 10), Math.round(Math.random() * 10) + 20)
+        this.imgArr = imgArr.slice(Math.round(Math.random() * 10), Math.round(Math.random() * 10) + 40)
         this.imgPreloading()
       }
     }
